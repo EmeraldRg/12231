@@ -1,0 +1,88 @@
+# MiniAssist YAML reference; not automatically loaded by the current source build.
+config_version: 1
+client: MiniAssist
+source_archive_declared_version: 1.9.1
+note: 'Reference copy only: this source build loads config/miniassist.properties,
+  not YAML. Use the paired .properties file in the Minecraft config folder.'
+modules:
+  Aim Assist:
+    enabled: false
+    key: 295
+    numbers:
+      Дистанция (блоки): 6.5
+      FOV: 110.0
+      Плавность: 0.22
+      Макс. скорость/тик: 6.0
+      Ускорение/тик: 1.2
+      Скорость по вертикали: 0.72
+      Упреждение (тики): 0.7
+      Точка прицела (%): 0.55
+      Мёртвая зона: 0.1
+    booleans:
+      Шаг чувствительности: true
+      Только при атаке: true
+      Игнорировать невидимых: true
+      Только видимые: true
+      Удерживать цель: true
+    multi:
+      Типы целей:
+        Игроков: true
+        Враждебных: false
+        Мирных: false
+  TriggerBot:
+    enabled: false
+    key: 296
+    numbers:
+      Кулдаун атаки (%): 100.0
+      Дистанция: 4.5
+      Доп. задержка (тики): 0.0
+    booleans:
+      Игнорировать невидимых: true
+      Не бить с предметом: true
+    modes:
+      Тип удара: 0
+    multi:
+      Типы целей:
+        Игроков: true
+        Враждебных: false
+        Мирных: false
+  FreeCam:
+    enabled: false
+    key: 297
+    numbers:
+      Скорость: 0.35
+      Множитель Sprint: 3.0
+  AutoSprint:
+    enabled: true
+    key: 299
+    booleans:
+      Только вперёд: true
+      Учитывать голод: true
+  InventoryMove:
+    enabled: true
+    key: 300
+  AutoTool:
+    enabled: true
+    key: 301
+  Zoom:
+    enabled: false
+    key: 298
+    numbers:
+      FOV: 30.0
+      Плавность: 0.35
+  HUD:
+    enabled: true
+    key: -1
+    numbers:
+      'Target HUD: время (сек)': 3.0
+    booleans:
+      Логотип и статус: true
+      Активные модули: true
+      Координаты и скорость: true
+      Броня: true
+      Эффекты: true
+      Target HUD: true
+      Список модерации: true
+      Keystrokes: false
+      Активные бинды: true
+hud_positions: Default layout; move panels in-game with T (chat open).
